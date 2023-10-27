@@ -23,5 +23,10 @@
 
 #### Instruções
 - A API foi documentada utilizando Swagger 
-- Para rodar o projeto basta iniciar pelo Visual Studio(ou IDE de sua preferência)
+- Para rodar o projeto basta iniciar pelo Visual Studio(ou IDE de sua preferência), ou entrar na pasta do projeto pelo cmd e digitar o comando "dotnet run"
 - Ao rodar o projeto será aberta uma tela do navegador padrão com a documentação Swagger.
+- Foi adicionado um endpoint de cadastro de usuário ou pode ser realizado login no endpoint /login pelo objeto:
+{
+  "usuario": "Renan",
+  "senha": "Renan"
+}
